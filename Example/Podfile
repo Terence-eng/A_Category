@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'A_Category_Example' do
   pod 'A_Category', :path => '../'
+  pod "CTMediator"
 
   target 'A_Category_Tests' do
     inherit! :search_paths
