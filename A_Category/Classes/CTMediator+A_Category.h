@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (A_Category)
-
+- (UIViewController *)A_ViewController;
 @end
 
 NS_ASSUME_NONNULL_END

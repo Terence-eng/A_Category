@@ -8,5 +8,7 @@
 #import "CTMediator+A_Category.h"
 
 @implementation CTMediator (A_Category)
-
+- (UIViewController *)A_ViewController {
+     return [self performTarget:@"A" action:@"viewController" params:nil shouldCacheTarget:NO];
+}
 @end
